@@ -1,4 +1,4 @@
-name: Build the flutter version of the RustDesk
+name: build-windows-64
 
 on:
   workflow_call:
