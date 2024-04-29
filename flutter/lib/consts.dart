@@ -147,9 +147,9 @@ const double kDesktopIconButtonSplashRadius = 20;
 const int kMinCursorSize = 12;
 
 /// [kDefaultScrollAmountMultiplier] indicates how many rows can be scrolled after a minimum scroll action of mouse
-const kDefaultScrollAmountMultiplier = 5.0;
-const kDefaultScrollDuration = Duration(milliseconds: 50);
-const kDefaultMouseWheelThrottleDuration = Duration(milliseconds: 50);
+const kDefaultScrollAmountMultiplier = 10.0;//default is 5.0
+const kDefaultScrollDuration = Duration(milliseconds: 10);//default is 50
+const kDefaultMouseWheelThrottleDuration = Duration(milliseconds: 10);//default is 50
 const kFullScreenEdgeSize = 0.0;
 const kMaximizeEdgeSize = 0.0;
 var kWindowEdgeSize = isWindows ? 1.0 : 5.0;
